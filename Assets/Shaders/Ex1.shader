@@ -1,9 +1,11 @@
 Shader "Custom/Ex1"
 {    
-    Properties
+    Properties//What shows in the inspector
     { 
         // Q1: Which two properties can be controlled through the Material
         // Inspector? What type of data does each property represent?
+        
+        //Color and Texture.
 
         _BaseColor("Base Color", Color) = (1, 1, 1, 1)
         _BaseMap("Base Map", 2D) = "white"
